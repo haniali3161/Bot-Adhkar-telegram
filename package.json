@@ -1,0 +1,16 @@
+{
+  "name": "bot-adkhar",
+  "version": "1.0.0",
+  "description": "bot adkhar whatsapp",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "figlet": "^1.5.2",
+    "fs-extra": "^10.0.0",
+    "telegraf": "^4.4.1"
+  },
+  "author": "ryan almalki",
+  "license": "ISC"
+}
