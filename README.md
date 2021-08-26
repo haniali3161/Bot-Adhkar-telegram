@@ -45,6 +45,7 @@ https://github.com/adhkarbot/Bot-Adhkar-telegram/blob/main/lib/data/admin.json
 ```bash
 > git clone https://github.com/adhkarbot/Bot-Adhkar-telegram
 > cd Bot-Adhkar-telegram
+> npm i
 > node index.js
 
 ```
