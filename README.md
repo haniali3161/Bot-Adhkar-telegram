@@ -1,4 +1,8 @@
 # Bot-Adhkar-telegram
+
+<p align="center">
+  <img align="center" src="/adhkar.png" alt="Logo" width="768" height="432">
+</p>
 بوت أذكار لنشر الاذكار والفيديوهات والصور
 
 مثال على البوت 
