@@ -32,7 +32,7 @@ const home = Markup.inlineKeyboard([
   [Markup.button.callback('صور', 'photos'),
   Markup.button.callback('فيديو', 'videos'),
   Markup.button.callback('ملصقات', 'stickers')],
-  [Markup.button.url('تحميل البوت', 'https://www.rn0x.com')]
+  [Markup.button.url('تحميل البوت', 'https://github.com/adhkarbot/Bot-Adhkar-telegram')]
 ])
 
 
