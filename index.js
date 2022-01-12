@@ -16,7 +16,7 @@ const bot = new Telegraf(token, options);
 //=============================//
 console.log('-----------------------------------------------------------');
 console.log(figlet.textSync('BOT ADKHAR'));
-console.log("                        www.rn0x.com ")
+console.log("                        www.altaqwaa.org ")
 console.log("               Starting Bot Adhkar || Telegram")
 console.log('-----------------------------------------------------------');
 //============================//
@@ -194,574 +194,574 @@ bot.action('stickers', async (ctx) => {
 
 
 bot.hears('الفاتحة', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/001.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/001.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
   
 })
 
 bot.hears('البقرة', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/002.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/002.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 
 })
 
 bot.hears('آل عمران', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/003.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/003.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('النساء', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/004.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/004.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('المائدة', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/005.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/005.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الأنعام', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/006.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/006.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الأعراف', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/007.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/007.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الأنفال', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/008.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/008.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('التوبة', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/009.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/009.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('يونس', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/010.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/010.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('هود', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/011.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/011.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('يوسف', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/012.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/012.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الرعد', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/013.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/013.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('ابراهيم', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/014.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/014.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الحجر', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/015.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/015.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('النحل', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/016.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/016.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الإسراء', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/017.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/017.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الكهف', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/018.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/018.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('مريم', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/019.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/019.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('طه', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/020.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/020.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الأنبياء', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/021.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/021.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الحج', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/022.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/022.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('المؤمنون', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/023.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/023.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('النور', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/024.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/024.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الفرقان', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/025.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/025.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الشعراء', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/026.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/026.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('النمل', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/027.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/027.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('القصص', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/028.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/028.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('العنكبوت', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/029.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/029.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الروم', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/030.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/030.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('لقمان', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/031.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/031.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('السجدة', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/032.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/032.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الأحزاب', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/033.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/033.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('سبأ', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/034.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/034.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('فاطر', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/035.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/035.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('يس', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/036.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/036.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الصافات', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/037.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/037.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('ص', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/038.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/038.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الزمر', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/039.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/039.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('غافر', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/040.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/040.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('فصلت', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/041.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/041.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الشورى', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/042.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/042.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الزخرف', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/043.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/043.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الدخان', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/044.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/044.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الجاثية', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/045.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/045.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الأحقاف', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/046.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/046.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('محمد', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/047.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/047.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الفتح', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/048.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/048.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الحجرات', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/049.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/049.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('ق', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/050.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/050.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الذاريات', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/051.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/051.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الطور', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/052.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/052.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('النجم', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/053.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/053.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('القمر', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/054.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/054.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الرحمن', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/055.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/055.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الواقعة', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/056.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/056.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الحديد', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/057.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/057.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('المجادلة', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/058.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/058.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الحشر', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/059.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/059.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الممتحنة', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/060.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/060.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الصف', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/061.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/061.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الجمعة', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/062.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/062.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('المنافقون', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/063.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/063.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('التغابن', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/064.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/064.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الطلاق', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/065.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/065.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('التحريم', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/066.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/066.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الملك', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/067.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/067.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('القلم', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/068.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/068.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الحاقة', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/069.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/069.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('المعارج', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/070.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/070.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('نوح', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/071.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/071.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الجن', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/072.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/072.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('المزمل', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/073.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/073.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('المدثر', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/074.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/074.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('القيامة', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/075.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/075.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الإنسان', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/076.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/076.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('المرسلات', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/077.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/077.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('النبأ', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/078.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/078.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('النازعات', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/079.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/079.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('عبس', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/080.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/080.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('التكوير', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/081.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/081.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الإنفطار', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/082.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/082.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('المطففين', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/083.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/083.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الانشقاق', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/084.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/084.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('البروج', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/085.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/085.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الطارق', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/086.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/086.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الأعلى', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/087.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/087.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الغاشية', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/088.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/088.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الفجر', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/089.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/089.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('البلد', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/090.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/090.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الشمس', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/091.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/091.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الليل', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/092.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/092.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الضحى', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/093.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/093.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الشرح', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/094.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/094.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('التين', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/095.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/095.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('العلق', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/096.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/096.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('القدر', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/097.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/097.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('البينة', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/098.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/098.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الزلزلة', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/099.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/099.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('العاديات', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/100.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/100.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('القارعة', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/101.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/101.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('التكاثر', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/102.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/102.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('العصر', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/103.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/103.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الهمزة', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/104.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/104.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الفيل', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/105.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/105.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('قريش', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/106.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/106.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الماعون', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/107.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/107.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الكوثر', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/108.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/108.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الكافرون', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/109.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/109.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('النصر', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/110.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/110.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('المسد', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/111.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/111.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الإخلاص', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/112.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/112.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الفلق', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/113.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/113.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
 bot.hears('الناس', async (ctx) => {
-  await ctx.replyWithAudio({ url: "http://bot.rn0x.com/media/quran_mp3/quran_idris/114.mp3" })
+  await ctx.replyWithAudio({ url: "http://bot.altaqwaa.org/media/quran_mp3/quran_idris/114.mp3" })
   .catch((erro) => { console.log('Error when sending: ', erro); });
 })
 
